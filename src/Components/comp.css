@@ -1,0 +1,62 @@
+.card {
+    height: 400px;
+    width: 65%;
+    display: flex;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(252, 119, 119, 0.991), 0 6px 20px 0 rgba(246, 79, 79, 0.247);
+    
+}
+.main {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to right, black 50%, transparent);
+    border-radius: 25px;
+}
+.left {
+    /* border: solid; */
+    width: 50%;
+}
+.top {
+    display: flex;
+    padding: 25px;
+}
+.tit {
+    padding-left: 20px;
+}
+h1 {
+    font-weight: 200;
+    font-size: 40px;
+}
+p {
+    font-size: 16px;
+}
+.summ{
+    padding-left: 20px;
+}
+.year {
+    color: #6599c8;
+}
+.box {
+    display: flex;
+    width: 100%;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+.mts {
+    border: solid gray 1px;
+    border-radius: 5px;
+    padding: 5px;
+}
+img {
+    height: 150px;
+}
+.shares{
+    color: whitesmoke;
+    display:flex;
+    gap:30px;
+    padding:40px 22px ;
+    font-size: x-large;
+    font-weight: lighter;
+}
